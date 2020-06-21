@@ -10,7 +10,7 @@ Create an application that can be used to write, save, and delete notes. This ap
 
 
 ## NOTE-TAKER link
-For any issues [click on](https://github.com/deep-1995/note-taker/issues). 
+For any issues [click on](https://youtu.be/MpKUAf3XeVQ). 
 
 
 
