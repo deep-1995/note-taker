@@ -5,13 +5,35 @@ const express = require("express");
 const path = require("path");
 // need fs to read and write to files
 const fs = require("fs");
+commecvtion
+let connection;
+if (process.env.JAWSDB_URL) {
+    connection = mysql.createConnection(process.env.JAWSDB_URL)
+}
+else {
+    connection = mysql.createConnection({
+        host: "localhost",
+
+        // Your port; if not 3306
+        port: 3306,
+
+        // Your username
+        user: "root",
+
+        // Your password
+        password: "root",
+        database: "ice_creamDB"
+    });
+
+}
 
 // creating an "express" server
 const app = express();
 // Sets an Initial port for listeners
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3006;
 
 //  Initialize notesData
+
 
 let notesData = [];
 
@@ -100,6 +122,7 @@ app.delete("/api/notes/:id", function (req, res) {
         console.log(err);
     }
 });
+let connection;
 
 // HTML GET Requests
 
@@ -121,3 +144,4 @@ app.get("/api/notes", function (req, res) {
 app.listen(PORT, function () {
     console.log("SERVER IS LISTENING: " + PORT);
 });
+
