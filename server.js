@@ -5,7 +5,7 @@ const express = require("express");
 const path = require("path");
 // need fs to read and write to files
 const fs = require("fs");
-commecvtion
+
 let connection;
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL)
