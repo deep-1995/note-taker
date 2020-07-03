@@ -15,14 +15,14 @@ else {
         host: "localhost",
 
         // Your port; if not 3306
-        port: 3306,
+        port: 3309,
 
         // Your username
         user: "root",
 
         // Your password
         password: "root",
-        database: "ice_creamDB"
+        database: "note_db"
     });
 
 }
