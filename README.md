@@ -1,12 +1,14 @@
 # note-taker
 # description 
-Create an application that can be used to write, save, and delete notes. This application will uses express backend and save and retrieve note data from a JSON file.
+Full stack application that logs a list of burgers to eat.
 
 ## steps
 1. install npm.
-2. install express and path.
+2. install npm init
 3. run server.js
-4. open in brower to see the result
+4. run code workbench to.
+5. open in brower to see the result
+
 
 
 ## NOTE-TAKER link
